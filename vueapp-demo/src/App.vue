@@ -1,9 +1,9 @@
 
-
 <template>
   <div id="app">
     <img alt="Devnation logo" src="./assets/devnation-logo.png">
     <h1 style="margin-left: 50px;">Welcome to Secure Vue App</h1>
+    <h2 style="margin-left: 50px;">User: {{keycloak.tokenParsed.preferred_username}}</h2>
     <div id="wrapper">
     <div class="jwt-token"><h3 style="color: black;">JWT Token</h3>{{keycloak.token}}</div>
     <div class="jwt-token-info"><h3 style="color: black;">Response from Quarkus API</h3><pre style="background-color: black;">{{user.data}}</pre></div>
