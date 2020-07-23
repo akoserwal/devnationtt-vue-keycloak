@@ -2,7 +2,7 @@
 
 # Keycloak Setup: (port: 8081)
 * Create Realm: 'devnation' 
-* Creaste client: `vue-app` & `quarkus-bff`
+* Create client: `vue-app` & `quarkus-bff`
 
 
 # Vue App
