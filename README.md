@@ -1,5 +1,9 @@
 # Devnation Tech Talk Demo: Secure Vuejs app with Keycloak
 
+
+Slides and Video: https://developers.redhat.com/devnation/tech-talks/secure-vuejs-keycloak
+
+
 # Keycloak Setup: (port: 8081)
 * Create Realm: 'devnation' 
 * Create client: `vue-app` & `quarkus-bff`
